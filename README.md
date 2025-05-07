@@ -9,8 +9,11 @@ We've added a **Streamlit web app** to make data exploration interactive and use
 ## 📁 Project Structure
 
 ├── IPL_2008_2022_dataset.csv # Main dataset
+
 ├── analysis.ipynb # Jupyter notebook with EDA
+
 ├── ipl_app.py # NEW: Streamlit app
+
 ├── README.md # Project documentation
 
 
