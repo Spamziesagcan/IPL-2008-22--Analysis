@@ -1,53 +1,49 @@
-### 🏏 IPL Match Data Analysis (2008-2022)
-**ML | DS | Python**
+# 🏏 IPL 2008–2022 Analysis with Streamlit
 
-#### 📌 Project Overview  
-This project analyzes **IPL match data from 2008 to 2022** using **Exploratory Data Analysis (EDA), feature engineering, and advanced visualizations**. It uncovers insights about team performance, player efficiency, and match trends using **3D interactive plots, heatmaps, and statistical analysis**.
+This project provides a comprehensive analysis of Indian Premier League (IPL) data from 2008 to 2022 using Python and Streamlit. It includes interactive visualizations and statistical insights into team performances, players, venues, and more.
 
-#### 🚀 Features & Insights
-- **Data Cleaning & Preprocessing:** Handled missing values, duplicates, and outliers.  
-- **Feature Engineering:** Created custom metrics for **batting, bowling, and clutch performance**.  
-- **Data Visualization:** Used **Matplotlib, Seaborn, and Plotly** for **interactive 3D scatter plots, heatmaps, and bar charts**.  
-- **Performance Trends:** Identified **top players, team win distributions, and over-wise scoring patterns**.  
+## 🚀 What's New
 
-#### 🛠️ Tech Stack
-- **Programming:** Python  
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Plotly  
-- **Machine Learning:** Feature Engineering & Statistical Analysis  
+We've added a **Streamlit web app** to make data exploration interactive and user-friendly! No coding required—just launch the app and dive into the stats.
 
-#### 📊 Key Visualizations
-- **Total runs scored by each team (Bar Chart)**
-- **Top 5 run-scorers (Pie Chart)**
-- **Correlation heatmap of match stats**
-- **Batsman performance (3D Scatter Plot)**
-- **Team wins per season (3D Bubble Chart)**
-- **Runs scored per over (3D Surface Plot)**  
+## 📁 Project Structure
 
-#### 💾 Dataset
-The dataset consists of IPL match statistics from 2008 to 2022. It includes columns such as **team names, runs, wickets, overs, players, and match outcomes**.
+├── IPL_2008_2022_dataset.csv # Main dataset
+├── analysis.ipynb # Jupyter notebook with EDA
+├── ipl_app.py # NEW: Streamlit app
+├── README.md # Project documentation
 
-#### 🛠️ Setup & Usage
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/ipl-analysis.git
-   cd ipl-analysis
-   ```
-2. Install dependencies:  
-   ```bash
-   pip install pandas numpy matplotlib seaborn plotly
-   ```
-3. Run the analysis script:  
-   ```bash
-   python ipl_2008_2022.py
-   ```
 
-#### 🌊 Results
-- **Identified clutch players based on late-game performances**  
-- **Analyzed teams' winning consistency across seasons**  
-- **Discovered trends in over-wise scoring patterns**  
+## 🧪 Features
 
-#### 📌 Future Enhancements
-- **Implement predictive models for match outcomes**
-- **Integrate dashboard for interactive exploration**
-- **Expand analysis to include player auction trends**
+- Team and player performance breakdowns  
+- Venue-based win patterns  
+- Toss analysis  
+- Top run-scorers and wicket-takers  
+- Year-wise trends  
+- Interactive filters via Streamlit  
 
+## 🖥️ Run the Streamlit App
+
+Make sure you have **Python 3.7+** and **Streamlit** installed.
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Spamziesagcan/IPL-2008-22--Analysis.git
+cd IPL-2008-22--Analysis
+
+### 2. Install dependencies
+pip install pandas matplotlib seaborn streamlit
+
+### 3. Launch the app
+streamlit run streaamlit.py
+Then open the provided local URL in your browser.
+
+📌 Dataset
+1. Source: Kaggle / other public IPL datasets
+2. Includes match-level and player-level stats from 2008 to 2022
+
+🙌 Contribution
+Contributions are welcome! Feel free to fork this repo and submit pull requests.
+
+Made with 💙 by Spamziesagcan
